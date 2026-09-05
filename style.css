@@ -1,0 +1,56 @@
+body {
+  background: #222;
+  color: white;
+  text-align: center;
+  font-family: Arial;
+  margin: 0;
+  padding-bottom: 180px; /* arrow button এর জায়গা */
+}
+
+canvas {
+  background: black;
+  border: 3px solid lime;
+  display: block;
+  margin: 10px auto;
+  touch-action: none;
+}
+
+/* Reset button আলাদা জায়গা */
+.reset-area {
+  margin: 15px 0;
+}
+
+.reset-area button {
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Arrow Controls */
+#controls {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+#controls button {
+  font-size: 26px;
+  margin: 6px;
+  padding: 14px 18px;
+  background: #444;
+  color: white;
+  border: none;
+  border-radius: 12px;
+}
+
+#controls button:active {
+  background: #777;
+}
+
+.side-controls {
+  display: flex;
+  justify-content: center;
+}
